@@ -2,7 +2,7 @@
 /* eslint-disable quotes */
 
 const changeInfo = (token, mail, name, address, phone) =>
-  fetch("http:/192.168.0.105/AppShop/change_info.php", {
+  fetch("http:/192.168.16.104/AppShop/change_info.php", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

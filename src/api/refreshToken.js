@@ -5,7 +5,7 @@ import saveToken from "./SaveToken";
 import getToken from "./getToken";
 
 const getNewToken = token =>
-  fetch("http:/192.168.0.105/AppShop/refresh_token.php", {
+  fetch("http:/192.168.16.104/AppShop/refresh_token.php", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

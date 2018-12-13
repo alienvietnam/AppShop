@@ -8,7 +8,7 @@ import styles from "./ProductDetailStyle";
 import back from "../../../../media/appIcon/back.png";
 import cartFull from "../../../../media/appIcon/cartfull.png";
 
-const URL_IMAGE_PRODUCT = "http://192.168.0.105/AppShop/images/product/";
+const URL_IMAGE_PRODUCT = "http://192.168.16.104/AppShop/images/product/";
 
 class ProductDetail extends Component {
   constructor(props) {

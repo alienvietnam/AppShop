@@ -16,7 +16,7 @@ import Swiper from "react-native-swiper";
 import global from "../../../global";
 
 const { height, width } = Dimensions.get("window");
-const URL_IMAGE = "http://192.168.0.105/AppShop/images/type/";
+const URL_IMAGE = "http://192.168.16.104/AppShop/images/type/";
 
 class Collection extends Component {
 

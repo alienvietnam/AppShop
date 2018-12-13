@@ -1,7 +1,7 @@
 /* eslint-disable quotes */
 const register = (email, name, password) =>
   // eslint-disable-next-line no-undef
-  fetch("http:/192.168.0.105/AppShop//register.php", {
+  fetch("http:/192.168.16.104/AppShop//register.php", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

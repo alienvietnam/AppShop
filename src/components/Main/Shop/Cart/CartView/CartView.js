@@ -14,7 +14,7 @@ import global from "../../../../global";
 import sendOrder from "../../../../../api/sendOrder";
 import getToken from "../../../../../api/getToken";
 
-const URL_IMAGE_PRODUCT = "http://192.168.0.105/AppShop/images/product/";
+const URL_IMAGE_PRODUCT = "http://192.168.16.104/AppShop/images/product/";
 
 function toTitleCase(str) {
   return str.replace(

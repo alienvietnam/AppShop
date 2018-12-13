@@ -12,7 +12,7 @@ import {
 
 import global from "../../../global";
 
-const URL_IMAGE_PRODUCT = "http://192.168.0.105/AppShop/images/product/";
+const URL_IMAGE_PRODUCT = "http://192.168.16.104/AppShop/images/product/";
 
 function toTitleCase(str) {
   return str.replace(
